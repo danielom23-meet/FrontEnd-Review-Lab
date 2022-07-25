@@ -1,4 +1,10 @@
 function changeBackgroundColor(color) {
-	chacnge_color = document.getElementsByTagName("body")
-	chacnge_color.style.
+	if(document.body.style.backgroundColor == "cyan")
+	{
+		document.body.style.backgroundColor = color;
+	}
+	else
+	{
+		document.body.style.backgroundColor = "cyan";
+	}
 }
